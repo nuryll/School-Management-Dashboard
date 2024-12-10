@@ -20,6 +20,10 @@ const config: Config = {
         PurpleLight: "#F1F0FF",
         Yellow: "#FAE27C",
         YellowLight: "#FEFCE8",
+        GulfBlue: "#C9DFEC",
+        SunYellow: "#EAEEE9",
+        Pink: "#F89880",
+
       },
     },
   },
