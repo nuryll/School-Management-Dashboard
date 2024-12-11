@@ -29,24 +29,6 @@ const events = [
       time: "10:00 AM - 4:00 PM",
       description: "Students and staff set up booths and projects for the annual Science Fair.",
     },
-    {
-      id: 4,
-      title: "Final Exams - Grade 10",
-      time: "8:00 AM - 12:00 PM",
-      description: "Final exams for Grade 10 students. Ensure all students are seated 15 minutes early.",
-    },
-    {
-      id: 5,
-      title: "Annual Sports Day",
-      time: "8:00 AM - 5:00 PM",
-      description: "A day filled with various sports events and activities for all students.",
-    },
-    {
-        id: 6,
-        title: "School Graduation Ceremony",
-        time: "4:00 PM - 7:00 PM",
-        description: "The annual graduation ceremony for the senior class, including speeches and award presentations.",
-      },
   ];
   
 
