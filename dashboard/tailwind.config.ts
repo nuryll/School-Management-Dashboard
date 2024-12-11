@@ -23,6 +23,7 @@ const config: Config = {
         GulfBlue: "#C9DFEC",
         SunYellow: "#EAEEE9",
         Pink: "#F89880",
+        Blue: "#3f48cc",
 
       },
     },
