@@ -18,7 +18,7 @@
       "@/components/*": ["src/components/*"], // Add alias for components
       "@/app/*": ["src/app/*"], // Add alias for app
       "@/utils/*": ["src/utils/*"], // Add other aliases as needed
-      "@/*": ["src/*"]
+      "@/*": ["./src/*"]
     },
     "plugins": [
       {
