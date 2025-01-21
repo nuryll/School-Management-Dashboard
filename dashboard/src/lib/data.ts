@@ -156,7 +156,7 @@ export const studentsData = [
     name: "Mike Geller",
     email: "mike@geller.com",
     photo:
-      "https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/428328/pexels-photo-42328.jpeg?auto=compress&cs=tinysrgb&w=1200",
     phone: "1234567890",
     grade: 5,
     class: "5A",

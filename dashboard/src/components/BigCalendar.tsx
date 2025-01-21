@@ -16,17 +16,18 @@ const BigCalendar = () => {
 
   // Use effect to handle min and max dates only on the client side
   useEffect(() => {
-    setMinDate(new Date(2025, 1, 0, 8, 0, 0)); // Set min date dynamically on client
-    setMaxDate(new Date(2025, 1, 0, 17, 0, 0)); // Set max date dynamically on client
+    const min = new Date(2025, 1, 0, 8, 0, 0); // Dynamic date for min
+    const max = new Date(2025, 1, 0, 17, 0, 0); // Dynamic date for max
+    setMinDate(min);
+    setMaxDate(max);
   }, []);
 
   const handleOnChangeView = (selectedView: View) => {
     setView(selectedView);
   };
 
-  // Only render the Calendar when minDate and maxDate are set
   if (!minDate || !maxDate) {
-    return null; // Prevent rendering until client-side initialization is complete
+    return null; // Prevent rendering until dates are initialized
   }
 
   return (
@@ -46,3 +47,4 @@ const BigCalendar = () => {
 };
 
 export default BigCalendar;
+
