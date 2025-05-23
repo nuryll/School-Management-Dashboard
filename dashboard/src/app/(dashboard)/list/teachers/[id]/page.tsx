@@ -26,7 +26,7 @@ const SingleTeacherPage = () => {
             </div>
             <div className="w-2/3 flex flex-col justify-between gap-4">
               <div className="flex items-center gap-4">
-                <h1 className="text-xl font-semibold">Leonard Snyder</h1>
+                <h1 className="text-xl font-semibold">John Doe</h1>
                 {role === "admin" && <FormModal
                   table="teacher"
                   type="update"
@@ -47,7 +47,7 @@ const SingleTeacherPage = () => {
                 />}
               </div>
               <p className="text-sm text-gray-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Math Teacher
               </p>
               <div className="flex items-center justify-between gap-2 flex-wrap text-xs font-medium">
                 <div className="w-full md:w-1/3 lg:w-full 2xl:w-1/3 flex items-center gap-2">
